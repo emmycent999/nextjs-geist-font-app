@@ -1,0 +1,40 @@
+name: heala_app
+description: A telehealth mobile app for Nigeria built with Flutter.
+version: 0.1.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^2.0.5
+  # Authentication & Backend integration using Supabase
+  supabase_flutter: ^1.0.0
+  # Teleconsultation (video/audio calls)
+  flutter_webrtc: ^0.9.20
+  # Push Notifications (Firebase Cloud Messaging)
+  firebase_messaging: ^14.0.1
+  # Offline data storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  # State management
+  provider: ^6.0.3
+  # Date & time formatting
+  intl: ^0.18.0
+  # URL launcher for emergency calls
+  url_launcher: ^6.1.12
+  # HTTP requests
+  http: ^1.1.0
+  # Image picker for profile photos
+  image_picker: ^1.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
